@@ -1,0 +1,8 @@
+ $table->increments('id');
+            $table->integer('user_id')->unsigned()->index();
+            $table->string('description');
+            $table->string('collection_date');
+            $table->integer('contact');
+            $table->string('location');
+            $table->string('category');
+            $table->timestamps();
